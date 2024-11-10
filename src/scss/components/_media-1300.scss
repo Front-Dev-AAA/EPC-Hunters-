@@ -1,0 +1,10 @@
+ @media (max-width:1300px) {
+   [class*="__container"] {
+     padding-left: calc(1px + 69 * ((100vw - 320px) / (1280 - 320)));
+     padding-right: calc(1px + 69 * ((100vw - 320px) / (1280 - 320)));
+   }
+
+   .content-card {
+    max-width: calc(50px + 230 * ((100vw - 320px) / (1280 - 320)));
+ }
+ }

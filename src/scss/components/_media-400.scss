@@ -1,0 +1,50 @@
+@media (max-width:400px) {
+
+  [class*="__container"] {
+    max-width: 290px;
+    margin: 0 auto;
+  }
+
+  .header {
+    &__container {
+      max-width: 290px;
+      padding: 0;
+      padding-top: 0;
+    }
+
+    &__icon {
+      width: 88px;
+    }
+
+    &__logo {
+      padding-top: 21px;
+    }
+  }
+  .hero {
+    &__mainheading {
+      padding-right: 15px;
+    }
+    &__container {
+      max-width: 100%;
+      padding-left: 15px;
+    }
+    &__content {
+      padding-top: 102px;
+    }
+  }
+
+  .swiper {
+    padding-top: 31px;
+    width: 100%;
+  }
+  .content-card {
+    max-width: 93.5%;
+
+    &__descr {
+      padding-top: 8px;
+      font-size: 51px;
+    }
+  }
+
+
+}
