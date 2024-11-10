@@ -11,8 +11,7 @@
     "cache": "gulp cache",
     "backend": "gulp backend",
     "zip": "gulp zip",
-    "code": "editorconfig-checker",
-    "deploy": "gulp build && gh-pages -d app"
+    "code": "editorconfig-checker"
   },
   "author": "Anton",
   "license": "ISC",
